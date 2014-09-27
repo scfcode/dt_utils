@@ -92,7 +92,7 @@ on import_file(in_path)
 	return out
 end
 
-set result to import_file("$IMPORT_PATH")
+set result to import_file(POSIX file "$IMPORT_PATH")
 
 EOF`
 
